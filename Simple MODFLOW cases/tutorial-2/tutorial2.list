@@ -228,22 +228,22 @@
              STORAGE =           0.0000               STORAGE =           0.0000
        CONSTANT HEAD =           0.0000         CONSTANT HEAD =           0.0000
                WELLS =           0.0000                 WELLS =           0.0000
-     HEAD DEP BOUNDS =           0.0000       HEAD DEP BOUNDS =           0.0000
+     HEAD DEP BOUNDS =       1.7462E-10       HEAD DEP BOUNDS =       1.7462E-10
 
-            TOTAL IN =           0.0000              TOTAL IN =           0.0000
+            TOTAL IN =       1.7462E-10              TOTAL IN =       1.7462E-10
 
           OUT:                                     OUT:
           ----                                     ----
              STORAGE =           0.0000               STORAGE =           0.0000
        CONSTANT HEAD =           0.0000         CONSTANT HEAD =           0.0000
                WELLS =           0.0000                 WELLS =           0.0000
-     HEAD DEP BOUNDS =           0.0000       HEAD DEP BOUNDS =           0.0000
+     HEAD DEP BOUNDS =       1.1642E-10       HEAD DEP BOUNDS =       1.1642E-10
 
-           TOTAL OUT =           0.0000             TOTAL OUT =           0.0000
+           TOTAL OUT =       1.1642E-10             TOTAL OUT =       1.1642E-10
 
-            IN - OUT =           0.0000              IN - OUT =           0.0000
+            IN - OUT =       5.8208E-11              IN - OUT =       5.8208E-11
 
- PERCENT DISCREPANCY =           0.00     PERCENT DISCREPANCY =           0.00
+ PERCENT DISCREPANCY =          40.00     PERCENT DISCREPANCY =          40.00
 
 
 
@@ -318,23 +318,23 @@
 
            IN:                                      IN:
            ---                                      ---
-             STORAGE =       23952.9590               STORAGE =         239.5296
+             STORAGE =       23952.9746               STORAGE =         239.5298
        CONSTANT HEAD =           0.0000         CONSTANT HEAD =           0.0000
                WELLS =           0.0000                 WELLS =           0.0000
-     HEAD DEP BOUNDS =       48927.2500       HEAD DEP BOUNDS =         489.2725
+     HEAD DEP BOUNDS =       48927.6836       HEAD DEP BOUNDS =         489.2768
 
-            TOTAL IN =       72880.2109              TOTAL IN =         728.8021
+            TOTAL IN =       72880.6562              TOTAL IN =         728.8066
 
           OUT:                                     OUT:
           ----                                     ----
              STORAGE =           0.0000               STORAGE =           0.0000
        CONSTANT HEAD =           0.0000         CONSTANT HEAD =           0.0000
                WELLS =           0.0000                 WELLS =           0.0000
-     HEAD DEP BOUNDS =       72880.9531       HEAD DEP BOUNDS =         728.8096
+     HEAD DEP BOUNDS =       72881.2656       HEAD DEP BOUNDS =         728.8127
 
-           TOTAL OUT =       72880.9531             TOTAL OUT =         728.8096
+           TOTAL OUT =       72881.2656             TOTAL OUT =         728.8127
 
-            IN - OUT =          -0.7422              IN - OUT =      -7.5073E-03
+            IN - OUT =          -0.6094              IN - OUT =      -6.1035E-03
 
  PERCENT DISCREPANCY =          -0.00     PERCENT DISCREPANCY =          -0.00
 
@@ -390,23 +390,23 @@
 
            IN:                                      IN:
            ---                                      ---
-             STORAGE =       39710.6953               STORAGE =         157.5774
+             STORAGE =       39710.6211               STORAGE =         157.5765
        CONSTANT HEAD =           0.0000         CONSTANT HEAD =           0.0000
                WELLS =           0.0000                 WELLS =           0.0000
-     HEAD DEP BOUNDS =      152023.9062       HEAD DEP BOUNDS =        1030.9667
+     HEAD DEP BOUNDS =      152024.8281       HEAD DEP BOUNDS =        1030.9714
 
-            TOTAL IN =      191734.5938              TOTAL IN =        1188.5441
+            TOTAL IN =      191735.4531              TOTAL IN =        1188.5479
 
           OUT:                                     OUT:
           ----                                     ----
              STORAGE =           0.0000               STORAGE =           0.0000
        CONSTANT HEAD =           0.0000         CONSTANT HEAD =           0.0000
                WELLS =      100000.0000                 WELLS =        1000.0000
-     HEAD DEP BOUNDS =       91732.1094       HEAD DEP BOUNDS =         188.5116
+     HEAD DEP BOUNDS =       91732.8203       HEAD DEP BOUNDS =         188.5155
 
-           TOTAL OUT =      191732.1094             TOTAL OUT =        1188.5116
+           TOTAL OUT =      191732.8125             TOTAL OUT =        1188.5155
 
-            IN - OUT =           2.4844              IN - OUT =       3.2471E-02
+            IN - OUT =           2.6406              IN - OUT =       3.2349E-02
 
  PERCENT DISCREPANCY =           0.00     PERCENT DISCREPANCY =           0.00
 
@@ -423,6 +423,6 @@
          TOTAL TIME 1.73664E+07 2.89440E+05  4824.0      201.00     0.55031    
 1
 
- Run end date and time (yyyy/mm/dd hh:mm:ss): 2019/01/18 15:28:57
- Elapsed run time:  0.042 Seconds
+ Run end date and time (yyyy/mm/dd hh:mm:ss): 2019/01/24 17:58:59
+ Elapsed run time:  0.017 Seconds
 
