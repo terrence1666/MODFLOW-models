@@ -86,8 +86,8 @@
  LAYER NUMBER  AQUIFER TYPE
  ------------  ------------
        1            0
-                                       WIDTH ALONG ROWS (DELR)  =   10.00000    
-                                       WIDTH ALONG COLS (DELC)  =   10.00000    
+                                       WIDTH ALONG ROWS (DELR)  =   10.02900    
+                                       WIDTH ALONG COLS (DELC)  =   10.13400    
                                        TOP ELEV. OF 1ST LAYER   =   10.00000    
                                        CELL THICKNESS (DZ)      =   10.00000     FOR LAYER  1
                                        POROSITY                 =  0.3000000     FOR LAYER  1
@@ -115,8 +115,8 @@
  SAVE ONE-LINE SUMMARY OF MASS BUDGETS IN FILES [MT3Dnnn.MAS]
   FOR EACH SPECIES ON UNITS 601 AND ABOVE, EVERY  1 TRANSPORT STEPS
 
- MAXIMUM LENGTH ALONG THE X (J) AXIS =   460.0000    
- MAXIMUM LENGTH ALONG THE Y (I) AXIS =   310.0000    
+ MAXIMUM LENGTH ALONG THE X (J) AXIS =   461.3339    
+ MAXIMUM LENGTH ALONG THE Y (I) AXIS =   314.1540    
  MAXIMUM LENGTH ALONG THE Z (K) AXIS =   10.00000    
 
 
@@ -184,11 +184,11 @@
                     --------------------------------------------------------------------------------------------
 
  MAXIMUM STEPSIZE DURING WHICH ANY PARTICLE CANNOT MOVE MORE THAN ONE CELL
- =  29.48    (WHEN MIN. R.F.=1)  AT K=   1, I=  16, J=  17
+ =  29.57    (WHEN MIN. R.F.=1)  AT K=   1, I=  16, J=  17
 
  MAXIMUM STEPSIZE WHICH MEETS STABILITY CRITERION OF THE ADVECTION TERM
  (FOR PURE FINITE-DIFFERENCE OPTION, MIXELM=0) 
- =  28.59    (WHEN MIN. R.F.=1)  AT K=   1, I=  16, J=  16
+ =  28.69    (WHEN MIN. R.F.=1)  AT K=   1, I=  16, J=  16
 
                     "CNH             " FLOW TERMS FOR TIME STEP  1, STRESS PERIOD  1 READ UNFORMATTED ON UNIT 10
                     --------------------------------------------------------------------------------------------
@@ -200,10 +200,10 @@
  TOTAL NUMBER OF POINT SOURCES/SINKS PRESENT IN THE FLOW MODEL =    63
 
  MAXIMUM STEPSIZE WHICH MEETS STABILITY CRITERION OF THE SINK & SOURCE TERM
- =  30.06    (WHEN MIN. R.F.=1)  AT K=   1, I=   1, J=   1
+ =  30.14    (WHEN MIN. R.F.=1)  AT K=   1, I=   1, J=   1
 
  MAXIMUM STEPSIZE WHICH MEETS STABILITY CRITERION OF THE DISPERSION TERM
- =  11.32    (WHEN MIN. R.F.=1)  AT K=   1, I=  16, J=  16
+ =  11.44    (WHEN MIN. R.F.=1)  AT K=   1, I=  16, J=  16
 
 
      1 CALLS TO GCG PACKAGE FOR TRANSPORT TIME STEP   1 IN FLOW TIME STEP   1 STRESS PERIOD   1
@@ -257,11 +257,11 @@
      1 CALLS TO GCG PACKAGE FOR TRANSPORT TIME STEP  25 IN FLOW TIME STEP   1 STRESS PERIOD   1
      4 TOTAL ITERATIONS
      1 CALLS TO GCG PACKAGE FOR TRANSPORT TIME STEP  26 IN FLOW TIME STEP   1 STRESS PERIOD   1
-     4 TOTAL ITERATIONS
+     3 TOTAL ITERATIONS
   MAXIMUM CONCENTRATION CHANGES FOR EACH ITERATION:
   MAX. CHANGE LAYER,ROW,COL MAX. CHANGE LAYER,ROW,COL MAX. CHANGE LAYER,ROW,COL MAX. CHANGE LAYER,ROW,COL MAX. CHANGE LAYER,ROW,COL
  ------------------------------------------------------------------------------------------------------------------------------------
-   0.1755     (  1, 16, 16)  0.1419E-02 (  1, 15, 17)  0.1109E-04 (  1, 14, 18)  0.8941E-07 (  1, 13, 19)
+   0.1432     (  1, 16, 16)  0.8811E-03 (  1, 15, 17)  0.5245E-05 (  1, 14, 18)
 
 
 
@@ -281,14 +281,14 @@
                                                              IN                           OUT
                                                       ----------------             ----------------
                                CONSTANT CONCENTRATION:    0.000000                    0.000000    
-                                        CONSTANT HEAD:    0.000000                   -4.734024    
-                                                WELLS:    365000.1                    0.000000    
-                                MASS STORAGE (SOLUTE):    255.3034                   -365250.2    
+                                        CONSTANT HEAD:    0.000000                   -4.461410    
+                                                WELLS:    364999.9                    0.000000    
+                                MASS STORAGE (SOLUTE):    273.2268                   -365268.5    
                             ---------------------------------------------------------------------------
-                                              [TOTAL]:    365255.4     KG            -365254.9     KG  
+                                              [TOTAL]:    365273.2     KG            -365272.9     KG  
 
-                                                          NET (IN - OUT):   0.5312500    
-                                                   DISCREPANCY (PERCENT):   0.1454463E-03
+                                                          NET (IN - OUT):   0.2187500    
+                                                   DISCREPANCY (PERCENT):   0.5988671E-04
   ----- 
  | M T |
  | 3 D | END OF MODEL OUTPUT
