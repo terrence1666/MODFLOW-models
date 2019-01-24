@@ -189,6 +189,28 @@
 
  OUTPUT CONTROL FOR STRESS PERIOD    1   TIME STEP    1
     SAVE HEAD FOR ALL LAYERS
+    PRINT HEAD FOR ALL LAYERS
+    PRINT BUDGET
+    SAVE BUDGET
+ UBDSV2 SAVING "   CONSTANT HEAD" ON UNIT  53 AT TIME STEP  1, STRESS PERIOD   1
+ UBDSV1 SAVING "FLOW RIGHT FACE " ON UNIT  53 AT TIME STEP  1, STRESS PERIOD   1
+ UBDSV1 SAVING "FLOW FRONT FACE " ON UNIT  53 AT TIME STEP  1, STRESS PERIOD   1
+1
+              HEAD IN LAYER   1 AT END OF TIME STEP   1 IN STRESS PERIOD    1
+  ---------------------------------------------------------------------------
+
+            1           2           3           4           5           6           7           8           9          10
+ ........................................................................................................................
+   1    60.00       58.89       57.78       56.67       55.56       54.44       53.33       52.22       51.11       50.00    
+   2    60.00       58.89       57.78       56.67       55.56       54.44       53.33       52.22       51.11       50.00    
+   3    60.00       58.89       57.78       56.67       55.56       54.44       53.33       52.22       51.11       50.00    
+   4    60.00       58.89       57.78       56.67       55.56       54.44       53.33       52.22       51.11       50.00    
+   5    60.00       58.89       57.78       56.67       55.56       54.44       53.33       52.22       51.11       50.00    
+   6    60.00       58.89       57.78       56.67       55.56       54.44       53.33       52.22       51.11       50.00    
+   7    60.00       58.89       57.78       56.67       55.56       54.44       53.33       52.22       51.11       50.00    
+   8    60.00       58.89       57.78       56.67       55.56       54.44       53.33       52.22       51.11       50.00    
+   9    60.00       58.89       57.78       56.67       55.56       54.44       53.33       52.22       51.11       50.00    
+  10    60.00       58.89       57.78       56.67       55.56       54.44       53.33       52.22       51.11       50.00    
 
  HEAD WILL BE SAVED ON UNIT   51 AT END OF TIME STEP    1, STRESS PERIOD    1
 1
@@ -201,18 +223,18 @@
            IN:                                      IN:
            ---                                      ---
              STORAGE =           0.0000               STORAGE =           0.0000
-       CONSTANT HEAD =        5591.7285         CONSTANT HEAD =        5591.7285
+       CONSTANT HEAD =        5591.7725         CONSTANT HEAD =        5591.7725
 
-            TOTAL IN =        5591.7285              TOTAL IN =        5591.7285
+            TOTAL IN =        5591.7725              TOTAL IN =        5591.7725
 
           OUT:                                     OUT:
           ----                                     ----
              STORAGE =           0.0000               STORAGE =           0.0000
-       CONSTANT HEAD =        5591.7271         CONSTANT HEAD =        5591.7271
+       CONSTANT HEAD =        5591.7715         CONSTANT HEAD =        5591.7715
 
-           TOTAL OUT =        5591.7271             TOTAL OUT =        5591.7271
+           TOTAL OUT =        5591.7715             TOTAL OUT =        5591.7715
 
-            IN - OUT =       1.4648E-03              IN - OUT =       1.4648E-03
+            IN - OUT =       9.7656E-04              IN - OUT =       9.7656E-04
 
  PERCENT DISCREPANCY =           0.00     PERCENT DISCREPANCY =           0.00
 
@@ -229,6 +251,6 @@
          TOTAL TIME  86400.      1440.0      24.000      1.0000     2.73785E-03
 1
 
- Run end date and time (yyyy/mm/dd hh:mm:ss): 2019/01/21 16:17:00
- Elapsed run time:  0.009 Seconds
+ Run end date and time (yyyy/mm/dd hh:mm:ss): 2019/01/24 14:42:45
+ Elapsed run time:  0.039 Seconds
 
